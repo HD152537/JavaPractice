@@ -6,7 +6,7 @@ package org.dimigo.basic;
 /**
  * <pre> org.dimigo.basic
  *    _Operator
- * 1. 개요 : 이것은 정우가 짠 코드
+ * 1. 개요 : 디미베네
  * 2. 작성일 : 2017. 3. 14.
  * </pre>
  *
