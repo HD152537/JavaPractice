@@ -22,9 +22,9 @@ public class PersonTest2 {
 		// TODO Auto-generated method stub
 		Person[] p = {
 				new Person("Tom"),
-				new Person("홍길동"),
-				new Person("다나카"),
-				new Person("왕밍")
+				new Korean("홍길동"),
+				new Japanese("다나카"),
+				new Chinese("왕밍")
 		};
 		greeting(p);
 	}
