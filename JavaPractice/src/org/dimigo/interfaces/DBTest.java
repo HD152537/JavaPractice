@@ -17,8 +17,10 @@ public class DBTest {
 
 	public static void main(String[] args) {
 		IDBManager s = IDBManager.getDBObject(IDBManager.SYBASE_DATABASE);
+		System.out.println("<<변경전>>");
 		crud(s);
 		IDBManager o = IDBManager.getDBObject(IDBManager.ORACLE_DATABASE);
+		System.out.println("<<변경후>>");
 		crud(o);
 		
 	}
