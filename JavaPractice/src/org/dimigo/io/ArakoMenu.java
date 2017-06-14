@@ -8,7 +8,6 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
 import java.io.Writer;
 
 /**
@@ -39,7 +38,8 @@ public class ArakoMenu {
 				System.out.println(str);
 			}
 			
-		} catch (Exception e) 
+		}
+		catch (Exception e) 
 		  {
 			e.printStackTrace(); 
 		  }
